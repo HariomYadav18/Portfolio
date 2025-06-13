@@ -1,0 +1,15 @@
+{
+  "name": "hariom-portfolio",
+  "version": "1.0.0",
+  "description": "Hariom Yadav Portfolio Website",
+  "main": "index.html",
+  "scripts": {
+    "build": "echo 'Static site - no build process needed'",
+    "start": "echo 'Static site ready to serve'",
+    "dev": "echo 'Development server not needed for static site'"
+  },
+  "keywords": ["portfolio", "static", "html", "css", "javascript", "web-developer"],
+  "author": "Hariom Yadav",
+  "license": "MIT",
+  "type": "module"
+}
