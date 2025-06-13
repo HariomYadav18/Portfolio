@@ -21,11 +21,9 @@ menuEl.addEventListener("click", () => {
 var typed = new Typed(".text-type", {
   strings: [
     "Web Developer",
-    "Java Developer",
     "Programmer",
     "Open Source Contributor",
-    "Blogger",
-    "Youtuber",
+    "DSA Enthusiast",
   ],
   typeSpeed: 100,
   // backSpeed: 150,
