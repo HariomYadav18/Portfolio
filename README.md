@@ -105,6 +105,7 @@ npx http-server .
 
 # Or if you have Python installed
 python -m http.server 8000
+
 📱 Sections
 1. Home/Hero Section
 
@@ -147,6 +148,7 @@ Address, phone, and email details
 Netlify form integration for message handling
 
 🎨 Customization
+
 Updating Personal Information
 
 Basic Info: Edit the content in index.html
@@ -154,6 +156,7 @@ Styling: Modify styles.css for visual changes
 Functionality: Update index.js for interactive features
 
 Adding New Projects
+
 To add new projects, update the projects section in index.html:
 html<div class="project-box [category]" data-project="[category]">
     <div class="image-box">
@@ -167,8 +170,10 @@ html<div class="project-box [category]" data-project="[category]">
         </div>
     </div>
 </div>
+
 Updating Skills
 Add new skills in the skills section with appropriate icons from Icons8.
+
 🌐 Deployment
 Netlify (Recommended)
 
@@ -179,8 +184,11 @@ Deploy with automatic form handling enabled
 GitHub Pages
 
 Go to repository Settings
+
 Navigate to Pages section
+
 Select source branch (usually main)
+
 Your site will be available at https://[username].github.io/[repository-name]
 
 Vercel
@@ -191,27 +199,41 @@ Deploy with default settings
 📋 Features in Detail
 
 Smooth Scrolling: Navigation links smoothly scroll to sections
+
 Mobile Responsive: Hamburger menu for mobile devices
+
 Form Validation: Client-side form validation for contact form
+
 SEO Optimized: Proper meta tags and semantic HTML
+
 Performance Optimized: Minified external libraries and optimized images
+
 Cross-Browser Compatible: Works across all modern browsers
 
 🤝 Contributing
 
 Fork the repository
+
 Create a feature branch (git checkout -b feature/new-feature)
+
 Commit your changes (git commit -am 'Add new feature')
+
 Push to the branch (git push origin feature/new-feature)
+
 Create a Pull Request
 
 📄 License
+
 This project is open source and available under the MIT License.
+
 👤 Author
+
 Hariom Yadav
 
 GitHub: @HariomYadav18
+
 LinkedIn: Hariom Yadav
+
 Email: hariomydv1844@gmail.com
 
 🙏 Acknowledgments
