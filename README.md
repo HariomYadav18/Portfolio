@@ -194,6 +194,7 @@ Your site will be available at https://[username].github.io/[repository-name]
 Vercel
 
 Import your GitHub repository
+
 Deploy with default settings
 
 📋 Features in Detail
@@ -239,9 +240,13 @@ Email: hariomydv1844@gmail.com
 🙏 Acknowledgments
 
 Font Awesome for icons
+
 ScrollReveal.js for animations
+
 Typed.js for typing effects
+
 Icons8 for skill icons
+
 Netlify for form handling and deployment
 
 
