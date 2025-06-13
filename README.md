@@ -1,5 +1,7 @@
 Hariom Yadav - Personal Portfolio Website
+
 A modern, responsive personal portfolio website showcasing my skills, projects, and experience as a Computer Science student and web developer.
+
 🌟 Features
 
 Responsive Design: Fully responsive layout that works seamlessly across all devices
