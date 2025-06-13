@@ -5,17 +5,25 @@ A modern, responsive personal portfolio website showcasing my skills, projects, 
 🌟 Features
 
 Responsive Design: Fully responsive layout that works seamlessly across all devices
+
 Modern UI/UX: Clean and professional design with smooth animations
+
 Interactive Elements: Dynamic typing effect, smooth scrolling, and hover animations
+
 Project Showcase: Filterable project gallery with categories (All, Java, ReactJS, HTML/CSS/JS)
+
 Contact Form: Integrated contact form with Netlify form handling
+
 Social Media Integration: Direct links to LinkedIn, GitHub, and Instagram profiles
+
 Scroll Reveal Animations: Engaging animations as elements come into view
+
 Mobile-First Approach: Optimized for mobile devices with hamburger navigation
 
 🛠️ Technologies Used
 
 Frontend: HTML5, CSS3, Vanilla JavaScript
+
 Styling:
 
 Custom CSS with CSS Variables for theming
@@ -25,6 +33,7 @@ CSS animations and transitions
 
 
 Icons: Font Awesome 6.4.0
+
 JavaScript Libraries:
 
 ScrollReveal.js for scroll animations
@@ -32,6 +41,7 @@ Typed.js for dynamic typing effects
 
 
 Form Handling: Netlify Forms integration
+
 Design Features:
 
 CSS Grid and Flexbox layouts
@@ -42,6 +52,7 @@ Mobile-first responsive design
 
 
 📂 Project Structure
+
 portfolio-website/
 ├── index.html          # Main HTML structure
 ├── styles.css          # Complete CSS styling and animations
@@ -49,14 +60,21 @@ portfolio-website/
 ├── images/             # Image assets and favicon
 │   └── About-Image.png # Profile images and favicon
 └── README.md           # Project documentation
+
 🎯 Key JavaScript Features
 
 Dynamic Navigation: Active nav link highlighting with smooth transitions
+
 Responsive Hamburger Menu: Mobile navigation with toggle animations
+
 Typing Animation: Auto-typing effect displaying multiple roles
+
 Project Filtering: Interactive project gallery with category filters
+
 Scroll Animations: ScrollReveal animations for smooth page transitions
+
 Scroll-to-Top: Floating button for easy navigation
+
 Form Validation: Contact form with built-in validation
 
 🚀 Getting Started
