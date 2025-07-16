@@ -142,3 +142,21 @@ scrollRev.reveal(".projects-wrapper .projects-container .project-box", {
 // scrollRev.reveal(".contact-wrapper .right-side .topic-text", { delay: 200 });
 // scrollRev.reveal(".contact-wrapper .right-side p", { delay: 200 });
 // scrollRev.reveal(".contact-wrapper .right-side form div", { interval: 300 });
+
+// Contact form feedback
+const contactForm = document.querySelector('form[name="contact"]');
+const feedbackDiv = document.getElementById('form-feedback');
+if (contactForm && feedbackDiv) {
+  contactForm.addEventListener('submit', function(e) {
+    e.preventDefault();
+    feedbackDiv.style.display = 'block';
+    feedbackDiv.style.color = '#2ECC71';
+    feedbackDiv.style.marginTop = '1rem';
+    feedbackDiv.textContent = 'Thank you for reaching out! Your message has been sent.';
+    contactForm.reset();
+    setTimeout(() => {
+      feedbackDiv.style.display = 'none';
+      feedbackDiv.textContent = '';
+    }, 4000);
+  });
+}
