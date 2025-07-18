@@ -93,6 +93,32 @@ window.onscroll = () => {
 
 scrollToTopEl.addEventListener("click", goToTop);
 
+// Dark Mode Toggle
+const darkModeBtn = document.createElement('button');
+darkModeBtn.id = 'darkModeToggle';
+darkModeBtn.setAttribute('aria-label', 'Toggle dark mode');
+darkModeBtn.innerHTML = '<i class="fa-solid fa-moon"></i>';
+document.querySelector('header .navbar').appendChild(darkModeBtn);
+
+darkModeBtn.addEventListener('click', () => {
+  document.body.classList.toggle('dark-mode');
+  localStorage.setItem('darkMode', document.body.classList.contains('dark-mode'));
+});
+
+// Load dark mode preference
+if (localStorage.getItem('darkMode') === 'true') {
+  document.body.classList.add('dark-mode');
+}
+
+// Keyboard accessibility for scroll-to-top
+scrollToTopEl.tabIndex = 0;
+scrollToTopEl.setAttribute('aria-label', 'Scroll to top');
+scrollToTopEl.addEventListener('keydown', function(e) {
+  if (e.key === 'Enter' || e.key === ' ') {
+    goToTop();
+  }
+});
+
 // Scroll Reveal Animation
 const scrollRev = ScrollReveal({
   origin: "top",
